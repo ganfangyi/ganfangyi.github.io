@@ -1,0 +1,12 @@
+---
+layout:     post
+title:      "欢迎来到Gary's blog"
+subtitle:   "Welcome to Gary's blog"
+date:       2021-02-18 14:00
+author:     "Gary"
+header-img: "img/in-post/Welcome.jpg"
+catalog: false
+header-style: text
+---
+
+######欢迎来到我的网站

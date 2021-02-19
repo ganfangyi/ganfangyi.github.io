@@ -1,6 +1,4 @@
----
-catalog:true
----
+
 # Personal introduction 
 > This artist is all writen by Gary. So it may have some mistakes . Excuse me.
 

@@ -1,7 +1,3 @@
----
-catalog : true
----
-
 # 个人介绍
 Hi，我是淦方毅（Gary），一名在校高中生-[永修一中](https://baike.baidu.com/item/%E6%B0%B8%E4%BF%AE%E5%8E%BF%E7%AC%AC%E4%B8%80%E4%B8%AD%E5%AD%A6/4217202?fromtitle=%E6%B0%B8%E4%BF%AE%E4%B8%80%E4%B8%AD&fromid=627350&fr=aladdin)。这是我的个人博客。
 

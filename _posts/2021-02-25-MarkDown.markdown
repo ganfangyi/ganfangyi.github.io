@@ -1,0 +1,201 @@
+---
+layout:     post
+title:      "MarkDown教程"
+subtitle:   "How to use Markdown"
+date:       2021-02-25  17:00
+author:     "Gary"
+catalog: true
+header-img:"img/in-post/markdown-ico.png"
+tags:
+  - 教程
+---
+
+>哎，今天下午终于有时间了，那我来写一篇关于MarkDown的教程吧。😁😁😁
+>第一次写教程,排版不好请见谅
+
+## 1.Markdown说明
+
+以下是百度上关于Markdown的解释
+
+>Markdown是一种[轻量级标记语言](https://baike.baidu.com/item/轻量级标记语言/52671915)，创始人为约翰·格鲁伯（英语：John Gruber）。 它允许人们使用易读易写的[纯文本格式](https://baike.baidu.com/item/纯文本格式/9862288)编写文档，然后转换成有效的XHTML（或者HTML）文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
+
+以我的观点来看，Markdown就是一个标记语言。但是没有HTML那么复杂，可以迅速掌握其中的语法。并快速编撰**好看的**文章。我的这篇文章就是用Markdown编写的,甚至有些电子书都是用Markdown编写的。如图。
+
+![批注 2021-02-25 161414.png](https://i.loli.net/2021/02/25/LucwzaZOhrdJ7Ql.png)
+
+***
+
+## 2.Markdown的编辑器
+Markdown的编辑器有很多，如Typora(_我目前在的_),Mou,MarkdownPad,Haroopad等。Typora的特点是即时查看,特别方便.
+> Typora 如图
+
+![Typora.png](https://i.loli.net/2021/02/25/pEPJxuygoIcjLUD.png)
+
+***
+
+## 3.Markdown的语法(**重要**)
+### a.Markdown的标题
+使用#号标记(_一共有六级标题_),如
+```markdown
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+```
+显示结果如图:
+![批注 2021-02-25 161649.png](https://i.loli.net/2021/02/25/Vujz46XxICFnSrb.png)
+
+### b.Markdown的段落
+段落就是**内容本体**
+
+Markdown的段落没有特殊的格式,直接编写就好了
+
+##### 字体
+有如下几种字体
+```markdown
+*斜体文本*
+_斜体文本_
+**粗体文本**
+__粗体文本__
+***粗斜体文本***
+___粗斜体文本___
+```
+
+##### 分割线
+写法如下(_每种写法都可以建立分割线_)
+```markdown
+***
+
+* * *
+
+*****
+
+- - -
+
+----------
+```
+效果如图
+
+![批注 2021-02-25 162435.png](https://i.loli.net/2021/02/25/TnyUp48uLhzeqFa.png)
+
+##### 下划线
+写法如下
+```markdown
+<u>带下划线文本</u>
+```
+效果如下
+![01.jpg](https://www.runoob.com/wp-content/uploads/2019/03/05A27273-B66D-43DE-A3DB-0D32FF024093.jpg)
+
+### Markdown 列表
+列表是很重要的.让读者理清内容的结构
+
+Markdown 支持有序列表和无序列表。
+
+无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：
+```markdown
+* 第一项
+* 第二项
+* 第三项
+
++ 第一项
++ 第二项
++ 第三项
+
+
+- 第一项
+- 第二项
+- 第三项
+```
+效果如下:
+![02.jpg](https://www.runoob.com/wp-content/uploads/2019/03/89446A8E-6D83-4666-AACC-980145D5F070.jpg)
+
+有序列表使用数字并加上 . 号来表示，如：
+```markdown
+1. 第一项
+2. 第二项
+3. 第三项
+```
+效果如下
+![03.jpg](https://www.runoob.com/wp-content/uploads/2019/03/560384BB-2B00-41D5-ACF2-18972F7F2775.jpg)
+
+列表嵌套只需在子列表中的选项前面添加四个空格即可：
+```markdown
+1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+```
+> 显示图就不显示了,是前两项合并在一起
+
+### Markdown 区块
+区块可以使得文章更有层次感,我一般用区块来写注释.
+
+写法如图(记得> 后紧跟一个**空格**符号).
+
+```markdown
+> 区块
+> Gary的教程
+> markdown真方便
+```
+效果如图:
+![批注 2021-02-25 164005.png](https://i.loli.net/2021/02/25/KGVdLtksOpPIDzg.png)
+
+> 注: 区块可以使用嵌套,如嵌套列表.但是注意嵌套的地方要用四个空格的缩进
+
+### Markdown的图片
+
+图片这个功能我经常使用,在写文章时,一些难懂的地方可以摆出一个图片,让读者加深理解.
+
+写法下
+
+```markdown
+![alt 属性文本](图片地址)
+
+例子:
+![批注 2021-02-25 164005.png](https://i.loli.net/2021/02/25/KGVdLtksOpPIDzg.png)
+
+```
+
+这样在文章的指定地方显示出图片了
+
+> 注: 图片地址本地地址,也可以使用网络的地址.这就要使用**图床**了,我使用的是[sm](https://sm.ms/).
+
+
+
+### Markdown的表格
+
+Markdown 制作表格使用 **|** 来分隔不同的单元格，使用 **-** 来分隔表头和其他行。
+
+语法格式如下：
+
+```markdown
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+```
+
+显示如下:
+![批注 2021-02-25 165724.png](https://i.loli.net/2021/02/25/hbWNg9ztY1EpyUq.png)
+
+***
+
+## 4.结束语
+
+好了,Markdown的基本语法就写完了.当然,还有一些高级特性没有提及.我觉得我们应该用不上,上面我提及的是我经常用的.
+
+我看了看,我一共写了1087个字,编写文章不易,**赞助一下**啦:
+
+![qrcode_20210219122317.png](https://i.loli.net/2021/02/19/AYUa47OPDNZVCL2.png)
+
+
+
+最后,本文的镇文之图:
+
+![yOBSw9lXDxWgjMQ.jpg](https://i.loli.net/2021/02/25/RylMgf9QsICvO23.jpg)
+
+## 谢谢.Thank you.

@@ -4,10 +4,11 @@ title:      "MarkDown教程"
 subtitle:   "How to use Markdown"
 date:       2021-02-25  17:00
 author:     "Gary"
-catalog: true
 header-img:"img/in-post/markdown-ico.png"
 tags:
   - 教程
+catalog: true
+
 ---
 
 >哎，今天下午终于有时间了，那我来写一篇关于MarkDown的教程吧。😁😁😁

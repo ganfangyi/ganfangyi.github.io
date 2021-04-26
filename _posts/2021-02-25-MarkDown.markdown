@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "MarkDown教程"
+title:      "Markdown 教程"
 subtitle:   "How to use Markdown"
-date:       2021-02-25  17:00
+date:       2021-04-1 14:00
 author:     "Gary"
-header-img:"img/in-post/markdown-ico.png"
+header-img: "img/in-post/Welcome.jpg"
 tags:
   - 教程
 catalog: true
